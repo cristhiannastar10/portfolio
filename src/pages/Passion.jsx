@@ -18,8 +18,8 @@ const Passion = () => {
             <div className="bg-gray-300 p-6 rounded-md flex items-center justify-center w-full h-full">
               <img src={profileImage} alt="Perfil" className="object-cover rounded-md w-full h-full" />
             </div>
-            <button className="bg-gray-300 text-black py-2 px-4 rounded-md">
-              Button Text
+            <button className="">
+              
             </button>
           </div>
         </div>

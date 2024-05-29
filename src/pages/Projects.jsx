@@ -21,8 +21,8 @@ const Projects = () => {
             <div className="w-0 h-0 border-l-12 border-l-transparent border-r-12 border-r-transparent border-t-20 border-t-gray-400"></div>
           </div>
         </div>
-        <div className="text-center mt-4">
-          <a href="https://github.com/cristhiannastar10?tab=repositories" className="inline-flex items-center bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-600">
+        <div className="flex justify-around w-full max-w-xs mt-4" >
+          <a href="https://github.com/cristhiannastar10?tab=repositories" target="_blank" rel="noopener noreferrer">
             <FaGithub className="mr-2" /> Mira más en GitHub
           </a>
         </div>
