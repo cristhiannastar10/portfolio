@@ -5,8 +5,8 @@ import imagen from '../assets/images/home.jpg'; // Ruta de la imagen
 const Home = () => {
   return (
     <Layout>
-      <div className="bg-gray-800 text-white min-h-screen flex flex-col items-center py-10">
-        <h1 className="text-3xl font-bold mb-6">Cristhian Nastar</h1>
+      <div className="bg-gray-800 text-white min-h-screen flex flex-col items-center py-10 px-4 sm:px-6 lg:px-8">
+        <h1 className="text-3xl font-bold mb-6 text-center">Cristhian Nastar</h1>
         <div className="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-6 w-full max-w-4xl">
           <div className="bg-gray-300 p-6 rounded-md w-full md:w-2/3 text-black">
             <h2 className="text-2xl mb-4">Inicio</h2>

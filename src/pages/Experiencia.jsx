@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 const Experiencia = () => {
   return (
     <Layout>
-      <div className="bg-gray-800 text-white min-h-screen flex flex-col items-center py-10 px-4">
+      <div className="bg-gray-800 text-white min-h-screen flex flex-col items-center py-10 px-4 sm:px-6 lg:px-8">
         <h1 className="text-3xl font-bold mb-6 text-center">Experiencia</h1>
         <p className="mb-6 text-center">Académica - Laboral</p>
         <div className="flex flex-col md:flex-row justify-around items-center w-full max-w-4xl space-y-6 md:space-y-0 md:space-x-6">
@@ -22,9 +22,10 @@ const Experiencia = () => {
             <h2 className="text-2xl font-bold mb-4">Experiencia Laboral</h2>
             <div className="bg-gray-700 p-4 rounded-md space-y-2">
               <p className="text-base">
-              Como estudiante de quinto semestre de Ingeniería en Software en la Universidad Cooperativa de Colombia, he adquirido experiencia práctica en el desarrollo de aplicaciones y sistemas informáticos. A través de proyectos académicos y oportunidades de trabajo, he aplicado mis conocimientos en tecnologías como Azure, Python, JavaScript, Angular y React para crear soluciones innovadoras.
-
-He colaborado en la creación de aplicaciones web y móviles utilizando Angular y React, lo que me ha permitido comprender los principios fundamentales del desarrollo frontend y la creación de interfaces de usuario intuitivas y receptivas. Además, he trabajado en el desarrollo de APIs utilizando Python, aprovechando bibliotecas como Flask o Django, para construir servicios robustos y escalables.
+                Como estudiante de quinto semestre de Ingeniería en Software en la Universidad Cooperativa de Colombia, he adquirido experiencia práctica en el desarrollo de aplicaciones y sistemas informáticos. A través de proyectos académicos y oportunidades de trabajo, he aplicado mis conocimientos en tecnologías como Azure, Python, JavaScript, Angular y React para crear soluciones innovadoras.
+              </p>
+              <p className="text-base">
+                He colaborado en la creación de aplicaciones web y móviles utilizando Angular y React, lo que me ha permitido comprender los principios fundamentales del desarrollo frontend y la creación de interfaces de usuario intuitivas y receptivas. Además, he trabajado en el desarrollo de APIs utilizando Python, aprovechando bibliotecas como Flask o Django, para construir servicios robustos y escalables.
               </p>
             </div>
           </div>
