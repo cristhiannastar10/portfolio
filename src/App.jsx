@@ -6,7 +6,7 @@ import Passion from './pages/Passion';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Experiencia from './pages/Experiencia';
-import Contacto from 'c:/Users/Hp/portfolio/src/pages/contacto';
+import Contacto from 'pages/Contacto';
 
 // Importa otros componentes necesarios
 
