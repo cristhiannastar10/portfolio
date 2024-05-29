@@ -1,15 +1,15 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+// tailwind.config.js
+module.exports = {
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
-      fontFamily: {
-        roboto: ["Roboto","sans-serif"]
-      }
+      aspectRatio: {
+        '1': '1', // Para una proporción 1:1
+      },
     },
   },
-  plugins: [],
-}
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
+};
+
